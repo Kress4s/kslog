@@ -21,5 +21,6 @@ type (
 
 var PrettyJSONFormatter = JSONFormatter{
 	DisableHTMLEscape: true,
-	// PrettyPrint:       true,
+	// json indent
+	PrettyPrint: true,
 }

@@ -7,6 +7,16 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+const (
+	PanicLevel  = logrus.DebugLevel
+	FatalLevel  = logrus.FatalLevel
+	ErrorLevel  = logrus.ErrorLevel
+	WarnLevel   = logrus.WarnLevel
+	InfoLevel   = logrus.InfoLevel
+	DebugLevel  = logrus.DebugLevel
+	TranceLevel = logrus.TraceLevel
+)
+
 const appNameKey = "app_name"
 
 type Logger struct {
