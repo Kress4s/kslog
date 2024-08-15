@@ -1,4 +1,4 @@
-## base on logrus, realizing customize log
+## base on logrus, realizing customize log, support es6, es7, file hook!
 
 ### example
 
