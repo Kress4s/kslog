@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	PanicLevel  = logrus.DebugLevel
+	PanicLevel  = logrus.PanicLevel
 	FatalLevel  = logrus.FatalLevel
 	ErrorLevel  = logrus.ErrorLevel
 	WarnLevel   = logrus.WarnLevel
